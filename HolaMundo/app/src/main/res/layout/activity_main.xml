@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE androidx.constraintlayout.widget.ConstraintLayout [<!ELEMENT androidx.constraintlayout.widget.ConstraintLayout (Button)*><!ATTLIST androidx.constraintlayout.widget.ConstraintLayoutxmlns:android CDATA #REQUIREDxmlns:app CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT Button (#PCDATA)><!ATTLIST Buttonandroid:id CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:text CDATA #REQUIREDtools:layout_editor_absoluteX CDATA #REQUIREDtools:layout_editor_absoluteY CDATA #REQUIRED>]>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="365dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
